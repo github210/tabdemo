@@ -57,6 +57,7 @@ public class MainActivity extends FragmentActivity implements OnPageChangeListen
         channelList.add("新闻");
         channelList.add("视频");
         channelList.add("娱乐");
+        channelList.add("体育");
         for(int i=0;i<channelList.size();i++){
             RadioButton rb=(RadioButton)LayoutInflater.from(this).
                     inflate(R.layout.tab_rb, null);
